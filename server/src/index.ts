@@ -10,6 +10,7 @@ import app from "./app";
 import authenticate from "./controllers/websocket/authenticate";
 import wss from "./websocket/initWebSocket";
 import "./websocket/initWebSocket";
+import "./router/render";
 import "./router/auth";
 import "./router/timer";
 
